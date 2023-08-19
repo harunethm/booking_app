@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragment_b_ground"
+    android:padding="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/fragmentMulkEkle_edtTxtBaslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorIcon"
+                android:hint="@string/baslik"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorTitle" />
+
+            <ListView
+                android:id="@+id/fragmentMulkEkle_resimler"
+                android:layout_width="match_parent"
+                android:layout_height="128dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/fragmentMulkEkle_btnResimEkle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:drawableStart="@drawable/plus"
+                    android:drawableTint="@color/colorIcon"
+                    android:text="@string/resimEkle"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/button" />
+
+
+                <EditText
+                    android:id="@+id/fragmentMulkEkle_edtTxtUcret"
+                    android:layout_width="128dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:backgroundTint="@color/colorIcon"
+                    android:drawableEnd="@drawable/tl"
+                    android:hint="@string/ucret"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorTitle" />
+            </RelativeLayout>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/fragmentMulkEkle_tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabTextColor="@color/colorTitle" />
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/fragmentMulkEkle_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fragmentMulkEkle_fabKaydet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="4dp"
+        android:backgroundTint="@color/colorOpeningIcon"
+        android:src="@drawable/check_black"
+        app:fabSize="normal"
+        app:rippleColor="@color/colorIcon" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="baslik">24sp</dimen>
+    <dimen name="button">20sp</dimen>
+    <dimen name="buyuk">18sp</dimen>
+    <dimen name="orta">16sp</dimen>
+    <dimen name="kucuk">12sp</dimen>
+</resources>

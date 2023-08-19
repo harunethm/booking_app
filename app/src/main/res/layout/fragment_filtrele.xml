@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    tools:context=".MulkFiltrele">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/adres"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/baslik" />
+
+            <EditText
+                android:id="@+id/fragmentFiltrele_edtTxtAdres"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:hint="Adres"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorTitle" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/ucret"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/baslik" />
+
+            <EditText
+                android:id="@+id/fragmentFiltrele_edtTxtMinUcret"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/fragmentFiltrele_edtTxtMaxUcret"
+                android:hint="Min"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorTitle" />
+
+            <EditText
+                android:id="@+id/fragmentFiltrele_edtTxtMaxUcret"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:hint="Max"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorTitle" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/fragmentFiltrele_spGunlukAylik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/gunlukAylik"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentFiltrele_spMulkTipi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/mulkTipi"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentFiltrele_spOdaSayisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/odaSayisi"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentFiltrele_spKatNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/katNumarasi"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentFiltrele_spKatSayisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/katSayisi"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentFiltrele_spEsyali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/esya"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentFiltrele_spIsitma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/isitmaTürü"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentFiltrele_spCephe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/cephe"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentFiltrele_spYalitim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/yalitim"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentFiltrele_spAsansor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/asansor"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fragmentFiltrele_fabFiltrele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/colorOpeningIcon"
+        android:src="@drawable/check_black"
+        app:fabSize="mini" />
+
+</RelativeLayout>

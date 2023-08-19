@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragment_b_ground"
+    android:orientation="vertical"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:paddingTop="10dp"
+    tools:context=".MulkEkleOzellikler">
+
+    <LinearLayout
+        android:id="@+id/fragmentMulkEkleOzellikleri_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/fragmentMulkEkleOzellikleri_spGunlukAylik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/gunlukAylik"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentMulkEkleOzellikleri_spMulkTipi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/mulkTipi"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentMulkEkleOzellikleri_spOdaSayisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/odaSayisi"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentMulkEkleOzellikleri_spKatNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/katNumarasi"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentMulkEkleOzellikleri_spKatSayisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/katSayisi"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentMulkEkleOzellikleri_spEsyali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/esya"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentMulkEkleOzellikleri_spIsitma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/isitmaTürü"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentMulkEkleOzellikleri_spCephe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/cephe"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentMulkEkleOzellikleri_spYalitim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/yalitim"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/fragmentMulkEkleOzellikleri_spAsansor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/asansor"
+            android:padding="10dp" />
+
+    </LinearLayout>
+</ScrollView>

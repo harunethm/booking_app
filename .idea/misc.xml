@@ -1,0 +1,31 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/GitHub/androidStudioKodlari/183301051_hecalis/bookingDeneme_3/app/src/main/res/drawable-v24/check_black.xml" value="0.2815" />
+        <entry key="..\:/GitHub/androidStudioKodlari/183301051_hecalis/bookingDeneme_3/app/src/main/res/drawable/add_person.xml" value="0.2815" />
+        <entry key="..\:/GitHub/androidStudioKodlari/183301051_hecalis/bookingDeneme_3/app/src/main/res/drawable/button_colors.xml" value="0.2815" />
+        <entry key="..\:/GitHub/androidStudioKodlari/183301051_hecalis/bookingDeneme_3/app/src/main/res/drawable/check.xml" value="0.2815" />
+        <entry key="..\:/GitHub/androidStudioKodlari/183301051_hecalis/bookingDeneme_3/app/src/main/res/layout/acilis_ekrani.xml" value="0.3278985507246377" />
+        <entry key="..\:/GitHub/androidStudioKodlari/183301051_hecalis/bookingDeneme_3/app/src/main/res/layout/activity_main.xml" value="0.3278985507246377" />
+        <entry key="..\:/GitHub/androidStudioKodlari/183301051_hecalis/bookingDeneme_3/app/src/main/res/layout/activity_sifremi_unuttum.xml" value="0.3278985507246377" />
+        <entry key="..\:/GitHub/androidStudioKodlari/183301051_hecalis/bookingDeneme_3/app/src/main/res/layout/custom_listview_mulk.xml" value="0.3278985507246377" />
+        <entry key="..\:/GitHub/androidStudioKodlari/183301051_hecalis/bookingDeneme_3/app/src/main/res/layout/custom_listview_resim.xml" value="0.3278985507246377" />
+        <entry key="..\:/GitHub/androidStudioKodlari/183301051_hecalis/bookingDeneme_3/app/src/main/res/layout/fragment_ara.xml" value="0.3278985507246377" />
+        <entry key="..\:/GitHub/androidStudioKodlari/183301051_hecalis/bookingDeneme_3/app/src/main/res/layout/fragment_filtrele.xml" value="0.3278985507246377" />
+        <entry key="..\:/GitHub/androidStudioKodlari/183301051_hecalis/bookingDeneme_3/app/src/main/res/layout/fragment_mevcut_mulkler.xml" value="0.3278985507246377" />
+        <entry key="..\:/GitHub/androidStudioKodlari/183301051_hecalis/bookingDeneme_3/app/src/main/res/layout/fragment_mulk.xml" value="0.3278985507246377" />
+        <entry key="..\:/GitHub/androidStudioKodlari/183301051_hecalis/bookingDeneme_3/app/src/main/res/layout/fragment_mulk_adres.xml" value="0.3278985507246377" />
+        <entry key="..\:/GitHub/androidStudioKodlari/183301051_hecalis/bookingDeneme_3/app/src/main/res/layout/fragment_mulk_ekle_adres.xml" value="0.3278985507246377" />
+        <entry key="..\:/GitHub/androidStudioKodlari/183301051_hecalis/bookingDeneme_3/app/src/main/res/layout/fragment_mulk_ekle_ozellikler.xml" value="0.3278985507246377" />
+        <entry key="..\:/GitHub/androidStudioKodlari/183301051_hecalis/bookingDeneme_3/app/src/main/res/menu/nav_menu.xml" value="0.371875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

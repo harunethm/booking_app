@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".KayitEkrani">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/b_ground"
+        android:gravity="center">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/kayitOl"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="@dimen/baslik"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/kayitEkrani_tilAdSoyad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:errorEnabled="true"
+                    app:startIconDrawable="@drawable/profile">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/kayitEkrani_edtTxtAdSoyad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:hint="@string/adSoyad"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textSize="@dimen/buyuk" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/kayitEkrani_tilTelNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:errorEnabled="true"
+                    app:startIconDrawable="@drawable/phone">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/kayitEkrani_edtTxtTelNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:hint="@string/telNo"
+                        android:inputType="phone"
+                        android:maxLength="11"
+                        android:maxLines="1"
+                        android:textSize="@dimen/buyuk" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/kayitEkrani_tilEMail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toStartOf="@+id/fragmenKayitOl_spEMail"
+                        app:errorEnabled="true"
+                        app:startIconDrawable="@drawable/mail">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/kayitEkrani_edtTxtEMail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:hint="@string/eMail"
+                            android:inputType="textEmailAddress"
+                            android:maxLines="1"
+                            android:textSize="@dimen/buyuk" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <Spinner
+                        android:id="@+id/fragmenKayitOl_spEMail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="-20dp"
+                        android:entries="@array/mailAdresleri" />
+
+                </RelativeLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/kayitEkrani_tilSifre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="8"
+                    app:counterTextColor="@android:color/holo_red_light"
+                    app:errorEnabled="true"
+                    app:passwordToggleEnabled="true"
+                    app:startIconDrawable="@drawable/lock">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/kayitEkrani_edtTxtSifre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:hint="@string/sifre"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:textSize="@dimen/buyuk" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/kayitEkrani_tilSifreTekrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="8"
+                    app:counterTextColor="@android:color/holo_red_light"
+                    app:errorEnabled="true"
+
+                    app:passwordToggleEnabled="true"
+                    app:startIconDrawable="@drawable/lock">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/kayitEkrani_edtTxtSifreTekrar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:hint="@string/sifreTekrar"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:textSize="@dimen/buyuk" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/kayitEkrani_btnKayitOl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@android:color/transparent"
+                        android:drawableStart="@drawable/add_person"
+                        android:drawablePadding="10dp"
+                        android:drawableTint="@color/colorIcon"
+                        android:padding="10dp"
+                        android:text="@string/kayitOl"
+                        android:textColor="@color/colorTitle"
+                        android:textSize="@dimen/button"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

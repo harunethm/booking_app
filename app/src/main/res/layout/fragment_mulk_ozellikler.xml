@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragment_b_ground"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MulkOzellikler">
+
+    <LinearLayout
+        android:id="@+id/fragmentMulkOzellikleri_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/ucret"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <TextView
+                android:id="@+id/fragmentMulkOzellikler_tvUcret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/buyuk" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/kiralama_suresi"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <TextView
+                android:id="@+id/fragmentMulkOzellikler_tvGunlukAylik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/buyuk" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/mulk_tipi"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <TextView
+                android:id="@+id/fragmentMulkOzellikler_tvMulkTipi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/buyuk" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/oda_sayisi"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <TextView
+                android:id="@+id/fragmentMulkOzellikler_tvOdaSayisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/buyuk" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/kat_numarasi"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <TextView
+                android:id="@+id/fragmentMulkOzellikler_tvKatNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/buyuk" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/kat_sayisi"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <TextView
+                android:id="@+id/fragmentMulkOzellikler_tvKatSayisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/buyuk" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/esya_durumu"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <TextView
+                android:id="@+id/fragmentMulkOzellikler_tvEsyali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/buyuk" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/isitma"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <TextView
+                android:id="@+id/fragmentMulkOzellikler_tvIsitma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/buyuk" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/cephe"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <TextView
+                android:id="@+id/fragmentMulkOzellikler_tvCephe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/buyuk" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/yalitim"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <TextView
+                android:id="@+id/fragmentMulkOzellikler_tvYalitim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/buyuk" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/asansor"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <TextView
+                android:id="@+id/fragmentMulkOzellikler_tvAsansor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/buyuk" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

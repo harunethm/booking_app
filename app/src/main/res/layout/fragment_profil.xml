@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragment_b_ground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fragmentProfil_profilResmi"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_centerInParent="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile" />
+
+            <ImageButton
+                android:id="@+id/fragmentProfil_ibDuzenle"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/edit"
+                android:tint="@color/colorIcon" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/adSoyad"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <TextView
+                android:id="@+id/fragmentProfil_txtAdSoyad"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/buyuk" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/telNo"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <TextView
+                android:id="@+id/fragmentProfil_txtTelNo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/buyuk" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/eMail"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <TextView
+                android:id="@+id/fragmentProfil_txtEMail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/buyuk" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/sifre"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <TextView
+                android:id="@+id/fragmentProfil_txtSifre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/buyuk" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp">
+
+            <Button
+                android:id="@+id/fragmentProfil_btnCikisYap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/lock"
+                android:drawablePadding="10dp"
+                android:text="@string/cikisYap"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/button" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

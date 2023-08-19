@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".GirisEkrani">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/b_ground"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/app_name"
+                android:textAllCaps="true"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/baslik"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/girisEkrani_tilEMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:errorEnabled="true"
+                    app:errorTextColor="@android:color/holo_red_dark"
+                    app:startIconDrawable="@drawable/profile">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/girisEkrani_edtTxtKullaniciAdi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@android:color/transparent"
+                        android:hint="@string/kullanici_adi"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:textColor="@color/colorText"
+                        android:textColorHint="@color/colorText"
+                        android:textSize="@dimen/buyuk" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/girisEkrani_tilSifre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:errorEnabled="true"
+                    app:errorTextColor="@android:color/holo_red_dark"
+                    app:passwordToggleEnabled="true"
+                    app:startIconDrawable="@drawable/lock">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/girisEkrani_edtTxtSifre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@android:color/transparent"
+                        android:hint="@string/sifre"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:textColor="@color/colorText"
+                        android:textColorHint="@color/colorText"
+                        android:textSize="@dimen/buyuk" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/girisEkrani_btnSifremiUnuttum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@android:color/transparent"
+                    android:drawableEnd="@drawable/error"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/colorTitle"
+                    android:onClick="btnClick"
+                    android:text="@string/sifremiUnuttum"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="@dimen/kucuk" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/girisEkrani_btnKayitOl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:background="@android:color/transparent"
+                    android:drawableStart="@drawable/add_person"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/colorIcon"
+                    android:onClick="btnClick"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/kayitOl"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="@dimen/button" />
+
+                <Button
+                    android:id="@+id/girisEkrani_btnGirisYap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:background="@android:color/transparent"
+                    android:drawableStart="@drawable/lock_open"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/colorTitle"
+                    android:onClick="btnClick"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/girisYap"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="@dimen/button" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

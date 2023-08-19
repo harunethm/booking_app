@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragment_b_ground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/fragmentProfilDuzenle_ibCikis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/cross"
+                android:tint="@color/colorIcon" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/fragmentProfilDuzenle_ibProfilResmi"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/profile" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/adSoyad"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/fragmentProfilDuzenle_tilAdSoyad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fragmentProfilDuzenle_edtTxtAdsoyad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorText"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textAlignment="textEnd"
+                    android:textSize="@dimen/buyuk" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/telNo"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/fragmentProfilDuzenle_tilTelNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fragmentProfilDuzenle_edtTxtTelNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorText"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:maxLines="1"
+                    android:textAlignment="textEnd"
+                    android:textSize="@dimen/buyuk" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/eMail"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/fragmentProfilDuzenle_tilEMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/fragmenKayitOl_spEMail"
+                android:layout_toEndOf="@+id/text"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fragmentProfilDuzenle_edtTxtEMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorText"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:textAlignment="textEnd"
+                    android:textSize="@dimen/buyuk" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/fragmenKayitOl_spEMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="-20dp"
+                android:entries="@array/mailAdresleri" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/sifre"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/buyuk" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/fragmentProfilDuzenle_tilSifre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:counterEnabled="true"
+                app:counterMaxLength="8"
+                app:counterTextColor="@android:color/holo_red_light"
+                app:errorEnabled="true"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fragmentProfilDuzenle_edtTxtSifre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorText"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textAlignment="textEnd"
+                    android:textSize="@dimen/buyuk" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="24dp">
+
+            <Button
+                android:id="@+id/fragmentProfilDuzenle_btnKaydet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:background="@android:color/transparent"
+                android:drawableEnd="@drawable/check"
+                android:drawablePadding="8dp"
+                android:text="@string/kaydet"
+                android:textColor="@color/colorTitle"
+                android:textSize="@dimen/button" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+  <path
+      android:pathData="M160,50.2c-5.4,1.7 -7.5,3.1 -13.1,8.7 -5.8,5.8 -7,7.6 -8.8,13.5l-2.1,6.8 0,176.8 0,176.8 2.1,6.8c1.8,5.9 3,7.7 8.8,13.5 5.8,5.8 7.6,7 13.5,8.8 6.7,2.1 8.2,2.1 95.6,2.1 87.4,-0 88.9,-0 95.6,-2.1 5.9,-1.8 7.7,-3 13.5,-8.8 5.8,-5.8 7,-7.6 8.8,-13.5l2.1,-6.8 0,-176.8 0,-176.8 -2.1,-6.8c-1.8,-5.9 -3,-7.7 -8.8,-13.5 -5.8,-5.8 -7.6,-7 -13.5,-8.8 -6.7,-2.1 -8.1,-2.1 -96,-2 -86.9,-0 -89.3,0.1 -95.6,2.1zM351.1,67.5c2.3,1.6 5.3,5 6.6,7.4l2.3,4.4 0,152.4 0,152.3 -104,-0 -104,-0 0.2,-153.4 0.3,-153.4 3,-4.3c1.7,-2.3 5,-5.3 7.4,-6.6l4.5,-2.3 89.7,0.2 89.7,0.3 4.3,3zM359.8,417.4l-0.3,17.4 -3,4.3c-1.6,2.3 -5,5.3 -7.4,6.6l-4.4,2.3 -88.7,-0 -88.7,-0 -4.4,-2.3c-2.4,-1.3 -5.7,-4.3 -7.4,-6.6l-3,-4.3 -0.3,-17.4 -0.3,-17.4 104.1,-0 104.1,-0 -0.3,17.4z"
+      android:fillColor="@color/colorOpeningIcon"
+      android:strokeColor="@color/colorOpeningIcon"/>
+  <path
+      android:pathData="M226.5,98.5c-2.3,2.2 -2.5,3.2 -2.5,12l0,9.5 -5.5,-0c-4.6,-0 -6,0.4 -8,2.5l-2.5,2.4 0,45.6 0,45.5 -5.5,-0c-6.7,-0 -10.5,2.9 -10.5,8 0,1.9 0.9,4 2.5,5.5l2.4,2.5 59.1,-0 59.1,-0 2.4,-2.5c1.6,-1.5 2.5,-3.6 2.5,-5.5 0,-5.1 -3.8,-8 -10.5,-8l-5.5,-0 0,-45.5 0,-45.6 -2.5,-2.4c-2,-2.1 -3.4,-2.5 -8,-2.5l-5.5,-0 0,-9.5c0,-8.8 -0.2,-9.8 -2.5,-12l-2.4,-2.5 -27.1,-0 -27.1,-0 -2.4,2.5zM272,116l0,4 -16,-0 -16,-0 0,-4 0,-4 16,-0 16,-0 0,4zM288,176l0,40 -12,-0 -12,-0 0,-8 0,-8 -8,-0 -8,-0 0,8 0,8 -12,-0 -12,-0 0,-40 0,-40 32,-0 32,-0 0,40z"
+      android:fillColor="@color/colorOpeningIcon"
+      android:strokeColor="@color/colorOpeningIcon"/>
+  <path
+      android:pathData="M232,152l0,8 8,-0 8,-0 0,-8 0,-8 -8,-0 -8,-0 0,8z"
+      android:fillColor="@color/colorOpeningIcon"
+      android:strokeColor="@color/colorOpeningIcon"/>
+  <path
+      android:pathData="M264,152l0,8 8,-0 8,-0 0,-8 0,-8 -8,-0 -8,-0 0,8z"
+      android:fillColor="@color/colorOpeningIcon"
+      android:strokeColor="@color/colorOpeningIcon"/>
+  <path
+      android:pathData="M232,176l0,8 8,-0 8,-0 0,-8 0,-8 -8,-0 -8,-0 0,8z"
+      android:fillColor="@color/colorOpeningIcon"
+      android:strokeColor="@color/colorOpeningIcon"/>
+  <path
+      android:pathData="M264,176l0,8 8,-0 8,-0 0,-8 0,-8 -8,-0 -8,-0 0,8z"
+      android:fillColor="@color/colorOpeningIcon"
+      android:strokeColor="@color/colorOpeningIcon"/>
+  <path
+      android:pathData="M275.3,286.7c-13.1,11.3 -24.8,21.5 -26.1,22.6l-2.2,2.1 -10.7,-10.7c-10.7,-10.9 -12.8,-12 -17.8,-10.1 -2.3,0.9 -4.6,6 -3.9,8.8 0.3,1.3 7,8.7 14.8,16.5 12.9,12.8 14.6,14.1 17.8,14.1 2.1,-0 4.7,-0.9 6.4,-2.2 9.8,-7.6 55.7,-48.5 56.6,-50.4 0.6,-1.2 0.8,-3.4 0.4,-4.9 -0.7,-2.9 -5.9,-6.5 -9.3,-6.5 -1.5,-0 -10.4,7.1 -26,20.7z"
+      android:fillColor="@color/colorOpeningIcon"
+      android:strokeColor="@color/colorOpeningIcon"/>
+  <path
+      android:pathData="M226.5,418.5c-1.6,1.5 -2.5,3.6 -2.5,5.5 0,1.9 0.9,4 2.5,5.5l2.4,2.5 27.1,-0 27.1,-0 2.4,-2.5c1.6,-1.5 2.5,-3.6 2.5,-5.5 0,-1.9 -0.9,-4 -2.5,-5.5l-2.4,-2.5 -27.1,-0 -27.1,-0 -2.4,2.5z"
+      android:fillColor="@color/colorOpeningIcon"
+      android:strokeColor="@color/colorOpeningIcon"/>
+</vector>

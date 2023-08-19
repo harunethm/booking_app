@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBackGround">#101010</color>
+    <color name="colorBackGroundSearch">#F8DCB4</color>
+    <color name="colorTitle">#A6F57C00</color>
+    <color name="colorText">#D3D3D3</color>
+    <color name="colorIcon">#D9F87F02</color>
+    <color name="colorOpeningIcon">#FF8100</color>
+    <color name="colorPressedButton">#9C4F00</color>
+    <color name="mailAdresleri">#535353</color>
+    <color name="duzenleBackGround">#C40E0EFD</color>
+    <color name="silBackGround">#C4FD0E0E</color>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/b_ground">
+
+        <Toolbar
+            android:id="@+id/activityMain_toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:navigationIcon="@drawable/home"
+            android:title="@string/title_home"
+            android:titleTextColor="@color/colorTitle" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/activityMain_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/activityMain_navBar"
+            android:layout_below="@id/activityMain_toolBar" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/activityMain_navBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/b_ground"
+            app:itemIconTint="@drawable/button_colors"
+            app:labelVisibilityMode="unlabeled"
+            app:menu="@menu/nav_menu" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

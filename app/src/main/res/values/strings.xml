@@ -1,0 +1,324 @@
+<resources>
+
+    <!--region kelimeler-->
+    <string name="app_name">BOOKING APP</string>
+    <string name="title_home">Mevcut Mülkler</string>
+    <string name="title_add">Ekle</string>
+    <string name="title_search">Ara</string>
+    <string name="title_profile">Profil</string>
+    <string name="title_messages">Mesajlar</string>
+    <string name="kullanici_adi">Kullanıcı Adı (E-Mail)</string>
+    <string name="eMail">E-Mail</string>
+    <string name="sifre">Şifre</string>
+    <string name="yeniSifre">Yeni Şifre</string>
+    <string name="yeniSifreTekrar">Yeni Şifre Tekrar</string>
+    <string name="eskiSifre">Eski Şifre</string>
+    <string name="girisYap">Giriş Yap</string>
+    <string name="kayitOl">Kayıt Ol</string>
+    <string name="sifremiUnuttum">Şifremi Unuttum</string>
+    <string name="adSoyad">Ad Soyad</string>
+    <string name="telNo">Telefon Numarası</string>
+    <string name="sifreTekrar">Şifre Tekrar</string>
+    <string name="sifreYenilemeTalebi">Şifre Yenileme Talebi</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="baslik">Başlık</string>
+    <string name="ekle">EKLE</string>
+    <string name="gunluk">Günlük</string>
+    <string name="aylik">Aylık</string>
+    <string name="ucret">Ücret</string>
+    <string name="ev">Ev</string>
+    <string name="oda">Oda</string>
+    <string name="mulkEkle">Mülk Ekle</string>
+    <string name="filtrele">Filtrele</string>
+    <string name="aciklama">Açıklama</string>
+    <string name="adres">Açık Adres</string>
+    <string name="resimEkle">Resim Ekle</string>
+    <string name="cikisYap">Çıkış Yap</string>
+    <string name="asansor">Asansör</string>
+    <string name="yalitim">Yalıtım</string>
+    <string name="cephe">Cephe</string>
+    <string name="isitma">Isıtma</string>
+    <string name="esya_durumu">Eşya Durumu</string>
+    <string name="kat_sayisi">Kat Sayısı</string>
+    <string name="kat_numarasi">Kat Numarası</string>
+    <string name="oda_sayisi">Oda Sayısı</string>
+    <string name="mulk_tipi">Mülk Tipi</string>
+    <string name="kiralama_suresi">Kiralama Süresi</string>
+    <string name="filtreleBaslik">Aramak istediğiniz başlığı yazınız.</string>
+    <!--endregion-->
+
+    <!--region mail adresleri-->
+    <string-array name="mailAdresleri">
+        <item>"@gmail.com"</item>
+        <item>"@hotmail.com"</item>
+        <item>"@outlook.com"</item>
+    </string-array>
+    <!--endregion-->
+
+    <!--region mülk özellikleri-->
+    <string-array name="odaSayisi">
+        <item>Oda Sayısı Seçiniz…</item>
+        <item>1+0</item>
+        <item>1+1</item>
+        <item>2+1</item>
+        <item>3+1</item>
+        <item>4+1</item>
+        <item>4+2</item>
+        <item>5+1</item>
+        <item>5+2</item>
+    </string-array>
+
+    <string-array name="katNumarasi">
+        <item>Kat Numarası Seçiniz…</item>
+        <item>1. Kat</item>
+        <item>2. Kat</item>
+        <item>3. Kat</item>
+        <item>4. Kat</item>
+        <item>5. Kat</item>
+        <item>6. Kat</item>
+        <item>7. Kat</item>
+        <item>8. Kat</item>
+        <item>9. Kat</item>
+        <item>10. Kat</item>
+        <item>11. Kat</item>
+        <item>12. Kat</item>
+        <item>13. Kat</item>
+        <item>14. Kat</item>
+        <item>15. Kat</item>
+        <item>16. Kat</item>
+        <item>17. Kat</item>
+        <item>18. Kat</item>
+        <item>19. Kat</item>
+        <item>20. Kat</item>
+    </string-array>
+
+    <string-array name="katSayisi">
+        <item>Kat Sayısı Seçiniz…</item>
+        <item>Tek Kat</item>
+        <item>Dublex</item>
+        <item>Triplex</item>
+    </string-array>
+
+    <string-array name="gunlukAylik">
+        <item>Kiralama Süresi Seçiniz…</item>
+        <item>Günlük</item>
+        <item>Aylık</item>
+    </string-array>
+
+    <string-array name="mulkTipi">
+        <item>Mülk Tipi Seçiniz…</item>
+        <item>Oda</item>
+        <item>Müstakil Ev</item>
+        <item>Apartman Dairesi</item>
+    </string-array>
+
+    <string-array name="isitmaTürü">
+        <item>Isıtma Türü Seçiniz…</item>
+        <item>Doğalgaz-Kalorifer</item>
+        <item>Kömür-Kalorifer</item>
+        <item>Merkezi Sistem</item>
+        <item>Soba</item>
+    </string-array>
+
+    <string-array name="cephe">
+        <item>Cephe Seçiniz…</item>
+        <item>Doğu</item>
+        <item>Batı</item>
+        <item>Kuzey</item>
+        <item>Güney</item>
+    </string-array>
+
+    <string-array name="asansor">
+        <item>Asansör Durumu Seçiniz…</item>
+        <item>Var</item>
+        <item>Yok</item>
+    </string-array>
+
+    <string-array name="esya">
+        <item>Eşya Durumu Seçiniz…</item>
+        <item>Var</item>
+        <item>Yok</item>
+    </string-array>
+
+    <string-array name="yalitim">
+        <item>Yalıtım Durumu Seçiniz…</item>
+        <item>Var</item>
+        <item>Yok</item>
+    </string-array>
+    <!--endregion-->
+
+    <!--region adresler-->
+    <string-array name="seciniz">
+        <item>Seçiniz…</item>
+    </string-array>
+
+    <string-array name="sehirler">
+        <item>Şehir Seçiniz…</item>
+        <item>İstanbul</item>
+        <item>Ankara</item>
+        <item>Ordu</item>
+    </string-array>
+
+    <string-array name="ilceler_istanbul">
+        <item>İlçe Seçiniz…</item>
+        <item>ist_ilce_1</item>
+        <item>ist_ilce_2</item>
+        <item>ist_ilce_3</item>
+        <item>ist_ilce_4</item>
+        <item>ist_ilce_5</item>
+    </string-array>
+
+    <string-array name="ilceler_ankara">
+        <item>İlçe Seçiniz…</item>
+        <item>ank_ilce_1</item>
+        <item>ank_ilce_2</item>
+        <item>ank_ilce_3</item>
+        <item>ank_ilce_4</item>
+        <item>ank_ilce_5</item>
+    </string-array>
+
+    <string-array name="ilceler_ordu">
+        <item>İlçe Seçiniz…</item>
+        <item>ordu_ilce_1</item>
+        <item>ordu_ilce_2</item>
+        <item>ordu_ilce_3</item>
+        <item>ordu_ilce_4</item>
+        <item>ordu_ilce_5</item>
+    </string-array>
+
+    <string-array name="mahalleler_istanbul">
+        <item>Mahalle Seçiniz…</item>
+        <item>ist_mah_1</item>
+        <item>ist_mah_2</item>
+        <item>ist_mah_3</item>
+        <item>ist_mah_4</item>
+        <item>ist_mah_5</item>
+    </string-array>
+
+    <string-array name="mahalleler_ankara">
+        <item>Mahalle Seçiniz…</item>
+        <item>ank_mah_1</item>
+        <item>ank_mah_2</item>
+        <item>ank_mah_3</item>
+        <item>ank_mah_4</item>
+        <item>ank_mah_5</item>
+    </string-array>
+
+    <string-array name="mahalleler_ordu">
+        <item>Mahalle Seçiniz…</item>
+        <item>ordu_mah_1</item>
+        <item>ordu_mah_2</item>
+        <item>ordu_mah_3</item>
+        <item>ordu_mah_4</item>
+        <item>ordu_mah_5</item>
+    </string-array>
+
+    <string-array name="sokaklar_istanbul">
+        <item>Sokak Seçiniz…</item>
+        <item>ist_sk_1</item>
+        <item>ist_sk_2</item>
+        <item>ist_sk_3</item>
+        <item>ist_sk_4</item>
+        <item>ist_sk_5</item>
+    </string-array>
+
+    <string-array name="sokaklar_ankara">
+        <item>Sokak Seçiniz…</item>
+        <item>ank_sk_1</item>
+        <item>ank_sk_2</item>
+        <item>ank_sk_3</item>
+        <item>ank_sk_4</item>
+        <item>ank_sk_5</item>
+    </string-array>
+
+    <string-array name="sokaklar_ordu">
+        <item>Sokak Seçiniz…</item>
+        <item>ordu_sk_1</item>
+        <item>ordu_sk_2</item>
+        <item>ordu_sk_3</item>
+        <item>ordu_sk_4</item>
+        <item>ordu_sk_5</item>
+    </string-array>
+
+    <string-array name="binalar_istanbul">
+        <item>Bina Seçiniz…</item>
+        <item>ist_bina_1</item>
+        <item>ist_bina_2</item>
+        <item>ist_bina_3</item>
+        <item>ist_bina_4</item>
+        <item>ist_bina_5</item>
+    </string-array>
+
+    <string-array name="binalar_ankara">
+        <item>Bina Seçiniz…</item>
+        <item>ank_bina_1</item>
+        <item>ank_bina_2</item>
+        <item>ank_bina_3</item>
+        <item>ank_bina_4</item>
+        <item>ank_bina_5</item>
+    </string-array>
+
+    <string-array name="binalar_ordu">
+        <item>Bina Seçiniz…</item>
+        <item>ordu_bina_1</item>
+        <item>ordu_bina_2</item>
+        <item>ordu_bina_3</item>
+        <item>ordu_bina_4</item>
+        <item>ordu_bina_5</item>
+    </string-array>
+
+    <string-array name="katlar_ordu">
+        <item>Kat Seçiniz…</item>
+        <item>ordu_kat_1</item>
+        <item>ordu_kat_2</item>
+        <item>ordu_kat_3</item>
+        <item>ordu_kat_4</item>
+        <item>ordu_kat_5</item>
+    </string-array>
+
+    <string-array name="katlar_istanbul">
+        <item>Kat Seçiniz…</item>
+        <item>ist_kat_1</item>
+        <item>ist_kat_2</item>
+        <item>ist_kat_3</item>
+        <item>ist_kat_4</item>
+        <item>ist_kat_5</item>
+    </string-array>
+
+    <string-array name="katlar_ankara">
+        <item>Kat Seçiniz…</item>
+        <item>ank_kat_1</item>
+        <item>ank_kat_2</item>
+        <item>ank_kat_3</item>
+        <item>ank_kat_4</item>
+        <item>ank_kat_5</item>
+    </string-array>
+
+    <string-array name="daireler_ankara">
+        <item>Daire Seçiniz…</item>
+        <item>ank_daire_1</item>
+        <item>ank_daire_2</item>
+        <item>ank_daire_3</item>
+        <item>ank_daire_4</item>
+        <item>ank_daire_5</item>
+    </string-array>
+
+    <string-array name="daireler_istanbul">
+        <item>Daire Seçiniz…</item>
+        <item>ist_daire_1</item>
+        <item>ist_daire_2</item>
+        <item>ist_daire_3</item>
+        <item>ist_daire_4</item>
+        <item>ist_daire_5</item>
+    </string-array>
+
+    <string-array name="daireler_ordu">
+        <item>Daire Seçiniz…</item>
+        <item>daire_daire_1</item>
+        <item>daire_daire_2</item>
+        <item>daire_daire_3</item>
+        <item>daire_daire_4</item>
+        <item>daire_daire_5</item>
+    </string-array>
+
+</resources>

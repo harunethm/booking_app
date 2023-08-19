@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/owned"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragment_b_ground">
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/fragmentMevcutMulkler_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/fragmentMevcutMulkler_txtMulkEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fragmentMevcutMulkler_fabMulkEkle"
+        android:layout_alignBottom="@+id/fragmentMevcutMulkler_fabMulkEkle"
+        android:layout_marginEnd="12dp"
+        android:layout_toStartOf="@+id/fragmentMevcutMulkler_fabMulkEkle"
+        android:gravity="center"
+        android:text="@string/mulkEkle"
+        android:textColor="@color/colorText"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/fragmentMevcutMulkler_txtFiltrele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fragmentMevcutMulkler_fabFiltrele"
+        android:layout_alignBottom="@+id/fragmentMevcutMulkler_fabFiltrele"
+        android:layout_marginEnd="12dp"
+        android:layout_toStartOf="@+id/fragmentMevcutMulkler_fabFiltrele"
+        android:gravity="center"
+        android:text="@string/filtrele"
+        android:textColor="@color/colorText"
+        android:visibility="invisible" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fragmentMevcutMulkler_fabMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/colorOpeningIcon"
+        android:src="@drawable/menu_black"
+        app:fabSize="normal" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fragmentMevcutMulkler_fabFiltrele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fragmentMevcutMulkler_fabMulkEkle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/colorOpeningIcon"
+        android:foregroundGravity="center"
+        android:src="@drawable/filter"
+        android:visibility="invisible"
+        app:fabSize="mini"
+        app:rippleColor="@color/colorIcon" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fragmentMevcutMulkler_fabMulkEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fragmentMevcutMulkler_fabMenu"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/colorOpeningIcon"
+        android:foregroundGravity="center"
+        android:src="@drawable/plus"
+        android:visibility="invisible"
+        app:fabSize="mini" />
+
+</RelativeLayout>
