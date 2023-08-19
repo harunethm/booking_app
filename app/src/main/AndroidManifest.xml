@@ -16,7 +16,9 @@
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:windowSoftInputMode="adjustPan" />
         <activity android:name=".GirisEkrani" />
-        <activity android:name=".YuklenmeEkrani">
+        <activity
+            android:name=".YuklenmeEkrani"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
